@@ -1,0 +1,26 @@
+{
+  "name": "crowdfunding-app",
+  "version": "1.0.0",
+  "description": "* As a user, I want to see a list of current projects seeking funding.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amachkel/crowdfunding-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amachkel/crowdfunding-app/issues"
+  },
+  "homepage": "https://github.com/amachkel/crowdfunding-app#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0"
+  }
+}
