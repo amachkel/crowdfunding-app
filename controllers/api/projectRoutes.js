@@ -19,7 +19,7 @@ router.delete('/:id', async (req, res) => {
     const projectData = await Project.destroy({
       where: {
         id: req.params.id,
-        user_id: req.session.user_id,
+        // user_id: req.session.user_id,
       },
     });
 
