@@ -8,12 +8,12 @@
     <link rel='stylesheet' href='/css/style.css' />
   </head>
   <body>
-    {{!-- {{#if logged_in}} --}}
+    {{#if logged_in}}
       <nav>
         <button class='btn' id='logout'>logout</button>
         <button class='btn' id='profile'>profile</button>
       </nav>
-    {{!-- {{/if}} --}}
+    {{/if}}
     <header class='display-flex justify-center align-center p-2'>
       <h1>
         Fund a Project!
@@ -37,7 +37,11 @@
                 <input class='form-input' type='password' id='password-login' />
               </div>
               <div class='form-group'>
-                <button class='btn btn-primary' type='submit' id="login-btn">login</button>
+                <button
+                  class='btn btn-primary'
+                  type='submit'
+                  id='login-btn'
+                >login</button>
               </div>
             </form>
           </div>
@@ -74,7 +78,7 @@
     {{#if logged_in}}
       <script src='/js/logout.js'></script>
     {{/if}}
-    <script src='/js/logout.js'></script>
+    <script src='/js/login.js'></script>
   </body>
 
 </html>
